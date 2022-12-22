@@ -1,0 +1,52 @@
+.modal{
+    position: absolute !important;
+    width: 300px;
+    z-index: 10;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+
+}
+
+.info{
+
+}
+.type{
+    margin-right: 5px;
+}
+
+
+.volume{
+
+}
+
+.modal input{
+    margin-left: 20px;
+    height: 30px;
+    -moz-appearance: textfield;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.footer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end
+}
